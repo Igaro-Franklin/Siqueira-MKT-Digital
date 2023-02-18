@@ -147,3 +147,50 @@ button{
     height: 100%;
     margin: 5px 5% 20px;
 }
+
+
+/* ------------------------------------ TEAM ------------------------------------ */
+
+#team{
+    background-color: #ddd3d8;
+    display:flex;
+}
+
+.container-team{
+    display: flex;
+    width: 80%;
+    margin: 20px 10%;
+    padding: 80px;
+    justify-content: space-between;
+}
+
+.title-team{
+    font-size: 25px;
+    color: #474747;
+}
+
+.img-team{
+    width: 380px;
+    height: 420px;
+}
+
+.contem-team{
+    height: 100px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+
+.contem-team img{
+    width: 200px;
+    height: 100px;
+    text-align: left;
+}
+
+.contem-team p{
+    margin-left: -20px;
+}
+
+span{
+    font-weight: bold;
+}
